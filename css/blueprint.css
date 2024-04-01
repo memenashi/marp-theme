@@ -6,6 +6,7 @@
 
 :root {
   --theme-color: #044;
+  --accent-color: #9A5933;
   --font-color: white;
   --cover-color: rgba(255, 255, 255, 0.2);
   --background-cover-color: rgba(0, 0, 0, 0.2);
@@ -116,7 +117,7 @@ section.no_img img{
 h1>strong,
 h2>strong,
 h3>strong {
-  color: coral;
+  color: var(--accent-color: #9A5933);
   font-weight: 600;
   font-size: 1.1em;
 }
